@@ -55,12 +55,12 @@ if ((digitalRead(L_S) == 1)&&(digitalRead(R_S) == 0)){turnLeft();}
 if ((digitalRead(L_S) == 1)&&(digitalRead(R_S) == 1)){stop();}
 }else{
 
-turnLeft();
+turnRight();
 delay(350);
 forward();
-delay(1400);
-turnRight();  
-delay(750);
+delay(1300);
+turnLeft();  
+delay(780);
 forward();
 delay(800);
 
