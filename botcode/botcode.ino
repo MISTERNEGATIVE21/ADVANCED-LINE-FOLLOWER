@@ -58,7 +58,7 @@ if ((digitalRead(L_S) == 1)&&(digitalRead(R_S) == 1)){stop();}
 turnLeft();
 delay(350);
 forward();
-delay(1000);
+delay(1300);
 turnRight();  
 delay(800);
 forward();
